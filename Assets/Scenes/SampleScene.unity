@@ -557,8 +557,8 @@ Transform:
   m_GameObject: {fileID: 464980963}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39.95, y: 3.1, z: -71.1374}
-  m_LocalScale: {x: 2, y: 4, z: 1}
+  m_LocalPosition: {x: -39.95, y: 10.6, z: -71.1374}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -572,10 +572,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 464980963}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaa68fca489e01f4f83b59b6ec9c0a5c, type: 3}
+  m_Script: {fileID: 11500000, guid: a221e8365d1eb4f42b017a4beec75688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 30
+  projectilePrefab: {fileID: 2047809860949816346, guid: 335dbf18c013cf4498198c78c1aebb24, type: 3}
+  radiusOfAttack: 25
+  cooldownOfAttack: 3
+  speed: 30
 --- !u!1 &516431117
 GameObject:
   m_ObjectHideFlags: 3
@@ -647,7 +651,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516431117}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2165836, y: 0.000000032529133, z: -0.0000000072165673, w: 0.9762641}
+  m_LocalRotation: {x: 0.21658358, y: 0.000000041146457, z: -0.000000009128316, w: 0.9762641}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1093,8 +1097,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1005349138}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.19879, y: -0.000000021168011, z: 0.000000004293682, w: 0.9800421}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.19879, y: -0.00000001209816, z: 0.0000000024539693, w: 0.98004216}
+  m_LocalPosition: {x: 0, y: 0.0000009536743, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1266,9 +1270,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0199a00bff8b29d4b8e5eed1a874a567, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 100
   speed: 20
-  speedTurning: 30
+  speedTurning: 70
   acceleration: 3
   slowDown: 0.1
   damage: 10
@@ -1862,8 +1866,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528010039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.18097791, y: 0.000000032769805, z: -0.0000000060301857, w: 0.9834872}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.18097791, y: -0.000000013573698, z: 0.0000000024977846, w: 0.9834872}
+  m_LocalPosition: {x: 0, y: 0.0000009536743, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

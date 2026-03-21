@@ -11,9 +11,6 @@ public class DroneEnemy : Enemy
         enemyAttackState = new DroneAttackState(this);
     }
 
-    void Update()
-    {
-        
-    }
+
 
 }

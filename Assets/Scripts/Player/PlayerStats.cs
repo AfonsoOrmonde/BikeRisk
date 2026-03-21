@@ -58,6 +58,14 @@ public class PlayerStats: MonoBehaviour
         damageModifier *= value;
     }
 
+    public void TakeDamage(float damageToTake)
+    {
+        health -= damageToTake;
+        if(health <= 0)
+        {
+            Debug.Log("PLayer has died");
+        }
+    }
 
     public float getHealth()
     {

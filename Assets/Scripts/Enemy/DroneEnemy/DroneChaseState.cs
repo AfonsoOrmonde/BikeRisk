@@ -11,7 +11,15 @@ public class DroneChaseState: EnemyChaseState
     }
     public override void During()
     {
-        
+        Vector3 newTarget = enemy.getPlayer().transform.position;
+        if(!enemy.InRadius(enemy.getPlayer().gameObject)){
+            newTarget.y = enemy.transform.position.y;
+            enemy.Move(newTarget);
+        }
+        else
+        {
+            enemy.ChangeToAttack();
+        }
     }
     public override void Leave()
     {
