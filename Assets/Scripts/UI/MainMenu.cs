@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
     CanvasGroup canvasGroup;
     [SerializeField] private StartMenu StartMenu;
     [SerializeField] private SettingsManager SettingsManager;
-    //[SerializeField] private StartMenu StartMenu;
+    [SerializeField] private CodexMenu CodexMenu;
 
     void Start()
     {
@@ -27,7 +27,8 @@ public class MainMenu : MonoBehaviour
     }
    public void OpenCodex()
     {
-        
+        CloseMenu();
+        CodexMenu.Open();
     }
    public void OpenStart()
     {
@@ -47,5 +48,10 @@ public class MainMenu : MonoBehaviour
         canvasGroup.alpha = 0;
         canvasGroup.blocksRaycasts = false;
         canvasGroup.interactable = false;  
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }

@@ -37,6 +37,8 @@ public class Enemy : MonoBehaviour
     {
         health -= damage;
         Debug.Log($"New health Enemy = {health}");
+        if(health<=0)
+            Destroy(gameObject);
     }
 
     public void Move(Vector3 target)
@@ -52,6 +54,11 @@ public class Enemy : MonoBehaviour
             return true;
         }
         return false;
+    }
+
+    public void RotateEnemy(GameObject target)
+    {
+        transform.LookAt(target.transform);
     }
 
     public void Attack(GameObject player)
