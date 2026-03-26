@@ -7,7 +7,6 @@ public class TurretChaseState: EnemyChaseState
     public TurretChaseState(Enemy enemy): base(enemy){}
     public override void Enter()
     {
-        Debug.Log("Entered Chase");
     }
     public override void During()
     {

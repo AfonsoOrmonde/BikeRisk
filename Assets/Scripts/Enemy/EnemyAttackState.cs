@@ -10,7 +10,6 @@ public class EnemyAttackState: EnemyState
     }
     public override void Enter()
     {
-        Debug.Log("Entered Chase");
     }
     public override void During()
     {

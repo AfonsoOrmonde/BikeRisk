@@ -3,26 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.XR;
 
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody _rb;
     private Vector2 moveInput;
-    private bool CanChangeGravity;
     private PlayerStats player;
     LayerMask playerMask;
-    bool isGrounded;
     [SerializeField] private float groundCheckDistance = 1.1f;
     [SerializeField]private Transform GravityAnchor;
     [SerializeField] private float Gravity;
     [SerializeField] private float rotationTimer;
-
-    Coroutine rotationRoutine;
-
     Vector3 possibleNewDirection;
 
-    Vector3 currenGravityDirection = new Vector3(0,0,0);
-    // Start is called before the first frame update
 
     void Awake()
     { 
@@ -37,36 +31,18 @@ public class PlayerController : MonoBehaviour
         {
             Debug.LogError("No PlayerStats in object");
         }
-        currenGravityDirection = (GravityAnchor.position - transform.position).normalized;
+        //transform.forward = Vector3.right;
         InputManager.Controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         InputManager.Controls.Player.Move.canceled += ctx => moveInput = Vector2.zero;
         InputManager.Controls.Player.Shoot.performed += ctx => Shoot();
-        InputManager.Controls.Player.ChangeGravity.performed += ctx => ChangeGravity();
+        //InputManager.Controls.Player.ChangeGravity.performed += ctx => ChangeGravity();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        CheckGrounded();
         Movement();
         _rb.AddForce((GravityAnchor.position - transform.position).normalized * Gravity, ForceMode.Acceleration);
-    }
-
- 
-    IEnumerator RotationTransition(Quaternion targetRotation)
-    {
-        while (Quaternion.Angle(transform.rotation, targetRotation) > 0.5f)
-        {
-            transform.rotation = Quaternion.Slerp(
-                transform.rotation,
-                targetRotation,
-                rotationTimer * Time.fixedDeltaTime
-            );
-            yield return new WaitForFixedUpdate();
-        }
-
-        transform.rotation = targetRotation;
-        rotationRoutine = null;
     }
 
     void Movement()
@@ -82,11 +58,10 @@ public class PlayerController : MonoBehaviour
         Vector3 gravityDirection = (GravityAnchor.position - transform.position).normalized;
         Vector3 currentGravityVelocity = Vector3.Project(_rb.velocity, gravityDirection);
 
-        _rb.velocity = transform.forward * speed + currentGravityVelocity;
+        _rb.velocity = transform.forward * speed + (transform.right * (moveInput.x * player.getSpeedTurning())) + currentGravityVelocity;
 
-        if (isGrounded){
-            transform.Rotate(Vector3.up * player.getSpeedTurning() * moveInput.x * Time.fixedDeltaTime);
-        }
+        //transform.Rotate(Vector3.up * player.getSpeedTurning() * moveInput.x * Time.fixedDeltaTime);
+        
     }
     void Shoot()
     {
@@ -106,55 +81,38 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    void ChangeGravityToDirection(Vector3 newGravityDirection)
+    void ChangeGravityToDirection(Vector3 newUp, RideableWall.WallType type)
     {
-
-        if (rotationRoutine != null) return;
-
-        Debug.Log("In direction function of gravity");
-
-        newGravityDirection.Normalize();
-        currenGravityDirection = newGravityDirection;
-        Vector3 newUp = newGravityDirection;
-
-        Vector3 newForward = Vector3.ProjectOnPlane(transform.forward, newUp);
-
-        if (newForward == Vector3.zero)
-            newForward = Vector3.ProjectOnPlane(transform.right, newUp);
-
-        newForward.Normalize();
-        Quaternion targetRotation = Quaternion.LookRotation(newForward, newUp);
-
-        _rb.velocity = Vector3.ProjectOnPlane(_rb.velocity, newGravityDirection);
-
-        /*if (rotationRoutine != null)
-            StopCoroutine(rotationRoutine);*/
-
-        rotationRoutine = StartCoroutine(RotationTransition(targetRotation));
-    }
-    void ChangeGravity()
-    {
-        if(CanChangeGravity){
-        Debug.Log($"Changing Gravity with vector = {possibleNewDirection}");
-        ChangeGravityToDirection(possibleNewDirection);
+        Vector3 currentEuler = transform.rotation.eulerAngles;
+        switch(type)
+        {
+            case RideableWall.WallType.Bot:
+                transform.rotation = Quaternion.Euler(currentEuler.x, currentEuler.y, 0);
+                break;
+            case RideableWall.WallType.Top:
+                transform.rotation = Quaternion.Euler(currentEuler.x, currentEuler.y, 180);
+                break;
+            case RideableWall.WallType.Right:
+                transform.rotation = Quaternion.Euler(currentEuler.x, currentEuler.y, 90);
+                break;
+            case RideableWall.WallType.Left:
+                transform.rotation = Quaternion.Euler(currentEuler.x, currentEuler.y, -90);
+                break;
         }
-        CanChangeGravity = false;
+        _rb.velocity = Vector3.zero;
     }
 
-    public void DetectedNewFloor(Transform newFloorPosition)
+    public void DetectedNewFloor(GameObject newFloor,RideableWall.WallType type)
     {
+        Transform newFloorPosition = newFloor.transform;
         Debug.Log($"Detect new Floor with vector = {newFloorPosition.forward}");
-        CanChangeGravity = true;
+
+        Debug.Log($"Wall forward: {newFloorPosition.forward}, Player forward: {transform.forward}, Player up: {transform.up}");
+
+
         possibleNewDirection = newFloorPosition.forward;
-    }
-    void CheckGrounded()
-    {
-        isGrounded = Physics.Raycast(
-            transform.position,
-            currenGravityDirection,
-            groundCheckDistance,
-            playerMask
-        );
+
+        ChangeGravityToDirection(possibleNewDirection,type);
     }
 
     void OnGUI()

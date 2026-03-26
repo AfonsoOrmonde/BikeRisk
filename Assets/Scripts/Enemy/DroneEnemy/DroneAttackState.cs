@@ -10,7 +10,6 @@ public class DroneAttackState: EnemyAttackState
     }
     public override void Enter()
     {
-        Debug.Log("Entered Attack");
 
     }
     public override void During()
