@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField]private Transform GravityAnchor;
     [SerializeField] private float Gravity;
     [SerializeField] private float rotationTimer;
+    [SerializeField] private float rateOfVelocityInterpolation;
     Vector3 possibleNewDirection;
 
 
@@ -47,7 +48,6 @@ public class PlayerController : MonoBehaviour
 
     void Movement()
     {
-        //Vector3 currentVeloctiy = _rb.velocity;
         float speed =  player.getSpeedBike();
 
         if (moveInput.y > 0)
@@ -59,10 +59,9 @@ public class PlayerController : MonoBehaviour
         Vector3 currentGravityVelocity = Vector3.Project(_rb.velocity, gravityDirection);
 
         _rb.velocity = transform.forward * speed + (transform.right * (moveInput.x * player.getSpeedTurning())) + currentGravityVelocity;
-
-        //transform.Rotate(Vector3.up * player.getSpeedTurning() * moveInput.x * Time.fixedDeltaTime);
-        
+        //Debug.Log(_rb.velocity);
     }
+
     void Shoot()
     {
         Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f));
@@ -78,7 +77,6 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Hit nothing");
         }
-
     }
 
     void ChangeGravityToDirection(Vector3 newUp, RideableWall.WallType type)
@@ -99,7 +97,6 @@ public class PlayerController : MonoBehaviour
                 transform.rotation = Quaternion.Euler(currentEuler.x, currentEuler.y, -90);
                 break;
         }
-        _rb.velocity = Vector3.zero;
     }
 
     public void DetectedNewFloor(GameObject newFloor,RideableWall.WallType type)
@@ -114,6 +111,7 @@ public class PlayerController : MonoBehaviour
 
         ChangeGravityToDirection(possibleNewDirection,type);
     }
+
 
     void OnGUI()
     {
