@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor.Search;
 using UnityEngine;
 
@@ -14,6 +15,16 @@ public class PlayerStats: MonoBehaviour
     [SerializeField] float radiusShooting;
     [SerializeField] float currentExperience;
     [SerializeField] float currentLevel;
+    [SerializeField] float crashingDamageToReceive;
+    [SerializeField] float maxDashEnergy;
+    
+    float dashEnergy;
+    private float energyRechargeRate = 5;
+    private float energySpendRate = 10;
+    private float healingRate = 0;
+    private float lifeStealModifier = 0;
+    private float blockModifier = 0;
+    private bool chargingDash = false;
 
     
 
@@ -25,6 +36,15 @@ public class PlayerStats: MonoBehaviour
     void Start()
     {
         selectorMenu = FindAnyObjectByType<ItemSelectorMenu>();
+        dashEnergy = maxDashEnergy;
+    }
+
+    void Update()
+    {
+        if (chargingDash)
+            dashEnergy = Mathf.Max(0, dashEnergy - energySpendRate * Time.deltaTime); // the max is just to clamp the float vlaue
+        else
+            dashEnergy = Mathf.Min(maxDashEnergy, dashEnergy + energyRechargeRate * Time.deltaTime); // same thing for the min
     }
 
     public void LevelUP()
@@ -41,6 +61,19 @@ public class PlayerStats: MonoBehaviour
             LevelUP();
     }
 
+    public void Heal(float value)
+    {
+        health += value;
+    }
+
+    public void HealByRate()
+    {
+        Heal(health*healingRate);
+    }
+    public void HealByLifeSteal()
+    {
+        Heal(damage * lifeStealModifier);
+    }
     public void EquipItem(ItemData item)
     {
         Debug.Log("Entered in equip Item");
@@ -52,19 +85,50 @@ public class PlayerStats: MonoBehaviour
             equippedItems.Add(item);
         }
     }
-
     public void addDamageModifier(float value)
     {
         damageModifier *= value;
     }
 
+    public void addHealingRate(float value)
+    {
+        healingRate += value;
+    }
+
+    public void addBlockModifier(float value)
+    {
+        blockModifier += value;
+    }
+
+    public void addLifeStealModifier(float value)
+    {
+        lifeStealModifier += value;
+    }
+
+    public void setChargeDash(bool value)
+    {
+        chargingDash = value;
+    }
+
     public void TakeDamage(float damageToTake)
     {
-        health -= damageToTake;
-        if(health <= 0)
-        {
-            Debug.Log("PLayer has died");
+        if(!RandomizerManager.RandomActivation(blockModifier)){
+            health -= damageToTake;
+            if(health <= 0)
+            {
+                Debug.Log("PLayer has died");
+            }
         }
+    }
+
+    public bool getCharginDash()
+    {
+        return chargingDash;
+    }
+
+    public float getCrashingDamage()
+    {
+        return crashingDamageToReceive;
     }
 
     public float getHealth()

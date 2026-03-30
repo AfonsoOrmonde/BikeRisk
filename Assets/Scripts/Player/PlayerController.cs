@@ -36,7 +36,17 @@ public class PlayerController : MonoBehaviour
         InputManager.Controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         InputManager.Controls.Player.Move.canceled += ctx => moveInput = Vector2.zero;
         InputManager.Controls.Player.Shoot.performed += ctx => Shoot();
+        StartCoroutine(ApplyBySecondEffects());
         //InputManager.Controls.Player.ChangeGravity.performed += ctx => ChangeGravity();
+    }
+
+    IEnumerator ApplyBySecondEffects()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1f);
+            player.HealByRate();
+        }
     }
 
     // Update is called once per frame
@@ -46,6 +56,21 @@ public class PlayerController : MonoBehaviour
         _rb.AddForce((GravityAnchor.position - transform.position).normalized * Gravity, ForceMode.Acceleration);
     }
 
+    void Update()
+    {
+        playerEnergy();
+    }
+    void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.TryGetComponent(out Enemy enemy))
+        {
+            if (player.getCharginDash())
+            {
+                enemy.TakeDamage(player.getDamage());
+            }
+            player.TakeDamage(player.getCrashingDamage());
+        }
+    }
     void Movement()
     {
         float speed =  player.getSpeedBike();
@@ -71,6 +96,7 @@ public class PlayerController : MonoBehaviour
             if(hit.collider.TryGetComponent(out Enemy enemy))
             {
                 enemy.TakeDamage(player.getDamage());
+                player.HealByLifeSteal();
             }
         }
         else 
@@ -78,6 +104,19 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Hit nothing");
         }
     }
+
+    public void playerEnergy()
+    {
+        if(moveInput.y > 0)
+        {
+            player.setChargeDash(true);
+        }
+        else
+        {
+            player.setChargeDash(false);
+        }
+    }
+
 
     void ChangeGravityToDirection(Vector3 newUp, RideableWall.WallType type)
     {
