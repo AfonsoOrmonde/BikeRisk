@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor.Search;
@@ -5,7 +6,7 @@ using UnityEngine;
 
 public class PlayerStats: MonoBehaviour
 {
-    [SerializeField] float health;
+    [SerializeField] float maxHealth;
     [SerializeField] float speed;
     [SerializeField] float speedTurning;
     [SerializeField] float acceleration;
@@ -19,6 +20,7 @@ public class PlayerStats: MonoBehaviour
     [SerializeField] float maxDashEnergy;
     
     float dashEnergy;
+    private float health;
     private float energyRechargeRate = 5;
     private float energySpendRate = 10;
     private float healingRate = 0;
@@ -37,6 +39,7 @@ public class PlayerStats: MonoBehaviour
     {
         selectorMenu = FindAnyObjectByType<ItemSelectorMenu>();
         dashEnergy = maxDashEnergy;
+        health = maxHealth;
     }
 
     void Update()
@@ -64,6 +67,7 @@ public class PlayerStats: MonoBehaviour
     public void Heal(float value)
     {
         health += value;
+        health = Math.Min(health, maxHealth);
     }
 
     public void HealByRate()
@@ -76,7 +80,6 @@ public class PlayerStats: MonoBehaviour
     }
     public void EquipItem(ItemData item)
     {
-        Debug.Log("Entered in equip Item");
         GameObject newItem = Instantiate(item.itemBehaviour, this.transform);
         newItem.transform.localPosition = Vector3.zero; 
         if(newItem.TryGetComponent(out Item itemToEquip)){
@@ -100,9 +103,19 @@ public class PlayerStats: MonoBehaviour
         blockModifier += value;
     }
 
+    public void reduceGasSpendingRate(float percentage)
+    {
+        energySpendRate -= energySpendRate*percentage;
+    }
+
     public void addLifeStealModifier(float value)
     {
         lifeStealModifier += value;
+    }
+
+    public void addMaxHealth(float value)
+    {
+        maxHealth += value;
     }
 
     public void setChargeDash(bool value)
