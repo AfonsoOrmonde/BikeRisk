@@ -15,5 +15,5 @@ MonoBehaviour:
   itemName: Charging Shell
   description: Who needs bullets anyways? Deal damage to aany enemies you hit while
     accelerating!
-  itemImage: {fileID: 0}
+  itemImage: {fileID: 21300000, guid: 39f1c2ef13bd1094d8bc0957769862a3, type: 3}
   itemBehaviour: {fileID: 2885193914331887701, guid: e9b15643004497343a8b944749634bd0, type: 3}

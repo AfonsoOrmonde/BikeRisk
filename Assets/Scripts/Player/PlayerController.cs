@@ -46,6 +46,8 @@ public class PlayerController : MonoBehaviour
         {
             yield return new WaitForSeconds(1f);
             player.HealByRate();
+            if(player.getCanSlowDonw()){
+                player.CheckTimeStop();}
         }
     }
 
@@ -58,13 +60,12 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        playerEnergy();
     }
     void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.TryGetComponent(out Enemy enemy))
         {
-            if (player.getCharginDash())
+            if (moveInput.y>0)
             {
                 enemy.TakeDamage(player.getDamage());
             }
@@ -102,18 +103,6 @@ public class PlayerController : MonoBehaviour
         else 
         {
             Debug.Log("Hit nothing");
-        }
-    }
-
-    public void playerEnergy()
-    {
-        if(moveInput.y > 0)
-        {
-            player.setChargeDash(true);
-        }
-        else
-        {
-            player.setChargeDash(false);
         }
     }
 
@@ -157,7 +146,6 @@ public class PlayerController : MonoBehaviour
     float radius = player.getRadiusShooting() * 20f; // tweak multiplier to match visually
     Vector2 center = new Vector2(Screen.width / 2, Screen.height / 2);
 
-    // OR use GL for runtime:
     DrawCircle(center, radius);
     }
 

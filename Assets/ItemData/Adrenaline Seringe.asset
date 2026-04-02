@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Adrenaline Seringe
   description: One small drop and you'll be tougher! Raise your max HP by 10 points.
-  itemImage: {fileID: 0}
-  itemBehaviour: {fileID: 0}
+  itemImage: {fileID: 21300000, guid: bbc4a729a54af034f93e745f10f2eee7, type: 3}
+  itemBehaviour: {fileID: 9001215273572967635, guid: 65f79910aa5dc8748b2ed9fbccd83bab, type: 3}

@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0199a00bff8b29d4b8e5eed1a874a567, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  maxHealth: 100
   speed: 20
   speedTurning: 70
   acceleration: 3
@@ -244,6 +244,20 @@ MonoBehaviour:
   radiusShooting: 1.2
   currentExperience: 0
   currentLevel: 0
+  crashingDamageToReceive: 30
+  maxDashEnergy: 100
+  timeStopCooldown: 60
+  timeStopDuration: 5
+  dashEnergy: 0
+  health: 100
+  energyRechargeRate: 5
+  energySpendRate: 10
+  healingRate: 0
+  lifeStealModifier: 0
+  blockModifier: 0
+  chargingDash: 0
+  canTimeSlow: 0
+  currentTimeStopCooldown: 0
   selectorMenu: {fileID: 0}
 --- !u!54 &5465826768761834980
 Rigidbody:

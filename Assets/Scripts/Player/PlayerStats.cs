@@ -18,16 +18,20 @@ public class PlayerStats: MonoBehaviour
     [SerializeField] float currentLevel;
     [SerializeField] float crashingDamageToReceive;
     [SerializeField] float maxDashEnergy;
-    
-    float dashEnergy;
-    private float health;
-    private float energyRechargeRate = 5;
-    private float energySpendRate = 10;
-    private float healingRate = 0;
-    private float lifeStealModifier = 0;
-    private float blockModifier = 0;
-    private bool chargingDash = false;
+    [SerializeField] private float timeStopCooldown;
+    [SerializeField] private float timeStopDuration;
 
+    [Header("Debug")]
+    [SerializeField]float dashEnergy;
+    [SerializeField]private float health;
+    [SerializeField]private float energyRechargeRate = 5;
+    [SerializeField]private float energySpendRate = 10;
+    [SerializeField]private float healingRate = 0;
+    [SerializeField]private float lifeStealModifier = 0;
+    [SerializeField]private float blockModifier = 0;
+    [SerializeField]private bool chargingDash = false;
+    [SerializeField]private bool canTimeSlow = false;
+    [SerializeField]private float currentTimeStopCooldown;
     
 
     [SerializeField] ItemSelectorMenu selectorMenu;
@@ -40,6 +44,7 @@ public class PlayerStats: MonoBehaviour
         selectorMenu = FindAnyObjectByType<ItemSelectorMenu>();
         dashEnergy = maxDashEnergy;
         health = maxHealth;
+        currentTimeStopCooldown = timeStopCooldown;
     }
 
     void Update()
@@ -116,6 +121,38 @@ public class PlayerStats: MonoBehaviour
     public void addMaxHealth(float value)
     {
         maxHealth += value;
+    }
+
+    public void ReduceTimeSlowCooldown(float value)
+    {
+        if(!canTimeSlow){
+            setClockSlowDown(true);
+        }
+        else
+        {
+            timeStopCooldown -= value;
+        }
+    }
+
+    public void CheckTimeStop()
+    {
+        if(currentTimeStopCooldown <= 0)
+        {
+            StartCoroutine(GameManager.Instance.SlowDownTime(0.5f, timeStopDuration));
+            currentTimeStopCooldown = timeStopCooldown;
+        }
+        else
+            currentTimeStopCooldown -= 1;
+    }
+
+    public void setClockSlowDown(bool value)
+    {
+        canTimeSlow = value;
+    }
+
+    public bool getCanSlowDonw()
+    {
+        return canTimeSlow;
     }
 
     public void setChargeDash(bool value)
