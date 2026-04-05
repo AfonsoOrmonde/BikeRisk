@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float rateOfVelocityInterpolation;
     Vector3 possibleNewDirection;
 
+    UIManager uIManager;
+
 
     void Awake()
     { 
@@ -36,6 +38,7 @@ public class PlayerController : MonoBehaviour
         InputManager.Controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         InputManager.Controls.Player.Move.canceled += ctx => moveInput = Vector2.zero;
         InputManager.Controls.Player.Shoot.performed += ctx => Shoot();
+        uIManager = FindAnyObjectByType<UIManager>();
         StartCoroutine(ApplyBySecondEffects());
         //InputManager.Controls.Player.ChangeGravity.performed += ctx => ChangeGravity();
     }
@@ -58,9 +61,6 @@ public class PlayerController : MonoBehaviour
         _rb.AddForce((GravityAnchor.position - transform.position).normalized * Gravity, ForceMode.Acceleration);
     }
 
-    void Update()
-    {
-    }
     void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.TryGetComponent(out Enemy enemy))
@@ -106,7 +106,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
+    public void PlayerDied()
+    {
+        uIManager.OpenDying();
+        Destroy(this);
+    }
     void ChangeGravityToDirection(Vector3 newUp, RideableWall.WallType type)
     {
         Vector3 currentEuler = transform.rotation.eulerAngles;

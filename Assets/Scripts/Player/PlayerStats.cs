@@ -35,13 +35,14 @@ public class PlayerStats: MonoBehaviour
     
 
     [SerializeField] ItemSelectorMenu selectorMenu;
-
+    PlayerController controller;
     private List<ItemData> equippedItems = new List<ItemData>();
 
 
     void Start()
     {
         selectorMenu = FindAnyObjectByType<ItemSelectorMenu>();
+        controller = FindAnyObjectByType<PlayerController>();
         dashEnergy = maxDashEnergy;
         health = maxHealth;
         currentTimeStopCooldown = timeStopCooldown;
@@ -167,6 +168,7 @@ public class PlayerStats: MonoBehaviour
             if(health <= 0)
             {
                 Debug.Log("PLayer has died");
+                controller.PlayerDied();
             }
         }
     }
