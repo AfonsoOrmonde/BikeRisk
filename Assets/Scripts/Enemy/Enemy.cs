@@ -58,7 +58,10 @@ public class Enemy : MonoBehaviour
 
     public void RotateEnemy(GameObject target)
     {
-        transform.LookAt(target.transform);
+        Vector3 lookVector = player.transform.position - transform.position;
+        lookVector.y = 0f;
+        Quaternion rotationToGo = Quaternion.LookRotation(lookVector);
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotationToGo, 1);
     }
 
     public void Attack(GameObject player)
