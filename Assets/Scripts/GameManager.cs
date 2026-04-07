@@ -19,6 +19,11 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject); 
     }
 
+    void Start()
+    {
+        AudioManager.Instance.playMusic("MainMusic");
+    }
+
     public void PauseGame()
     {
         Time.timeScale = 0f;

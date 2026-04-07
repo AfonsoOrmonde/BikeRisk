@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody _rb;
     private Vector2 moveInput;
+
+    private float gyroSpeed = 0; //this variable is only used for when in android
     private PlayerStats player;
     LayerMask playerMask;
     [SerializeField] private float groundCheckDistance = 1.1f;
@@ -37,6 +39,11 @@ public class PlayerController : MonoBehaviour
         //transform.forward = Vector3.right;
         InputManager.Controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         InputManager.Controls.Player.Move.canceled += ctx => moveInput = Vector2.zero;
+        InputManager.Controls.Player.Tilt.performed += ctx => {
+                Vector3 accel = ctx.ReadValue<Vector3>();
+                gyroSpeed = accel.x;
+            };
+        InputManager.Controls.Player.Tilt.canceled  += ctx => gyroSpeed = 0f;
         InputManager.Controls.Player.Shoot.performed += ctx => Shoot();
         uIManager = FindAnyObjectByType<UIManager>();
         StartCoroutine(ApplyBySecondEffects());
@@ -70,12 +77,14 @@ public class PlayerController : MonoBehaviour
                 enemy.TakeDamage(player.getDamage());
             }
             player.TakeDamage(player.getCrashingDamage());
+
+            AudioManager.Instance.playSFX("Landing");
         }
     }
     void Movement()
     {
         float speed =  player.getSpeedBike();
-
+        float combinedX = moveInput.x + gyroSpeed;
         if (moveInput.y > 0)
             speed *= player.getAcceleration();
         else if (moveInput.y < 0)
@@ -84,7 +93,7 @@ public class PlayerController : MonoBehaviour
         Vector3 gravityDirection = (GravityAnchor.position - transform.position).normalized;
         Vector3 currentGravityVelocity = Vector3.Project(_rb.velocity, gravityDirection);
 
-        _rb.velocity = transform.forward * speed + (transform.right * (moveInput.x * player.getSpeedTurning())) + currentGravityVelocity;
+        _rb.velocity = transform.forward * speed + (transform.right * (combinedX * player.getSpeedTurning())) + currentGravityVelocity;
         //Debug.Log(_rb.velocity);
     }
 
@@ -92,6 +101,8 @@ public class PlayerController : MonoBehaviour
     {
         Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f));
         RaycastHit hit;
+
+        AudioManager.Instance.playSFX("Shooting");
 
         if(Physics.SphereCast(ray, player.getRadiusShooting(), out hit, 1000f, playerMask)){
             if(hit.collider.TryGetComponent(out Enemy enemy))

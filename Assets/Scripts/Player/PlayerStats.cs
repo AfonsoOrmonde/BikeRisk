@@ -60,11 +60,13 @@ public class PlayerStats: MonoBehaviour
     {
         currentLevel++;
         Debug.Log($"Level up to Level = {currentLevel}");
+        AudioManager.Instance.playSFX("LevelUp");
         selectorMenu.OpenItemSelection(this);
     }
 
     public void gainExperience(float experience)
     {
+        AudioManager.Instance.playSFX("Ring");
         currentExperience += experience;
         if(currentExperience >= currentLevel*10) // temporary calculation of needed experience per level
             LevelUP();

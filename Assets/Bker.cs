@@ -127,6 +127,15 @@ public partial class @Bker: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Tilt"",
+                    ""type"": ""Value"",
+                    ""id"": ""72bb1e18-7e57-4198-8137-20115be63484"",
+                    ""expectedControlType"": ""Vector3"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -217,6 +226,17 @@ public partial class @Bker: IInputActionCollection2, IDisposable
                     ""action"": ""ChangeGravity"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e654e6f0-4c20-457f-89c1-2bf20ccd96f9"",
+                    ""path"": ""<Accelerometer>/acceleration"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Tilt"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -229,6 +249,7 @@ public partial class @Bker: IInputActionCollection2, IDisposable
         m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
         m_Player_Shoot = m_Player.FindAction("Shoot", throwIfNotFound: true);
         m_Player_ChangeGravity = m_Player.FindAction("ChangeGravity", throwIfNotFound: true);
+        m_Player_Tilt = m_Player.FindAction("Tilt", throwIfNotFound: true);
     }
 
     ~@Bker()
@@ -313,6 +334,7 @@ public partial class @Bker: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Look;
     private readonly InputAction m_Player_Shoot;
     private readonly InputAction m_Player_ChangeGravity;
+    private readonly InputAction m_Player_Tilt;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -340,6 +362,10 @@ public partial class @Bker: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/ChangeGravity".
         /// </summary>
         public InputAction @ChangeGravity => m_Wrapper.m_Player_ChangeGravity;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Tilt".
+        /// </summary>
+        public InputAction @Tilt => m_Wrapper.m_Player_Tilt;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -378,6 +404,9 @@ public partial class @Bker: IInputActionCollection2, IDisposable
             @ChangeGravity.started += instance.OnChangeGravity;
             @ChangeGravity.performed += instance.OnChangeGravity;
             @ChangeGravity.canceled += instance.OnChangeGravity;
+            @Tilt.started += instance.OnTilt;
+            @Tilt.performed += instance.OnTilt;
+            @Tilt.canceled += instance.OnTilt;
         }
 
         /// <summary>
@@ -401,6 +430,9 @@ public partial class @Bker: IInputActionCollection2, IDisposable
             @ChangeGravity.started -= instance.OnChangeGravity;
             @ChangeGravity.performed -= instance.OnChangeGravity;
             @ChangeGravity.canceled -= instance.OnChangeGravity;
+            @Tilt.started -= instance.OnTilt;
+            @Tilt.performed -= instance.OnTilt;
+            @Tilt.canceled -= instance.OnTilt;
         }
 
         /// <summary>
@@ -469,5 +501,12 @@ public partial class @Bker: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnChangeGravity(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Tilt" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnTilt(InputAction.CallbackContext context);
     }
 }
