@@ -10,18 +10,16 @@ public class DroneAttackState: EnemyAttackState
     }
     public override void Enter()
     {
+        if (enemy.CanAttack())
+        {
+            enemy.Attack(enemy.getPlayer().gameObject);
+        }        
+        enemy.ChangeToChase();
 
     }
     public override void During()
     {
-        if (!enemy.InRadius(enemy.getPlayer().gameObject))
-        {
-            enemy.ChangeToChase();
-        }
-        else if (enemy.CanAttack())
-        {
-            enemy.Attack(enemy.getPlayer().gameObject);
-        }
+
     }
     public override void Leave()
     {

@@ -28,6 +28,7 @@ public class DeathMenu : MonoBehaviour
 
     public void ReturnMenu()
     {
+        Close();
         SceneManager.LoadScene(0);
     }
 }

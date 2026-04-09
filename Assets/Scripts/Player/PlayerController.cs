@@ -36,9 +36,14 @@ public class PlayerController : MonoBehaviour
         {
             Debug.LogError("No PlayerStats in object");
         }
-        //transform.forward = Vector3.right;
-        InputManager.Controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
-        InputManager.Controls.Player.Move.canceled += ctx => moveInput = Vector2.zero;
+        InputManager.Controls.Player.Move.performed += ctx =>{ 
+            moveInput = ctx.ReadValue<Vector2>();
+            player.setChargeDash(true);
+        };
+        InputManager.Controls.Player.Move.canceled += ctx =>{ 
+            moveInput = Vector2.zero;
+            player.setChargeDash(false);
+        };
         InputManager.Controls.Player.Tilt.performed += ctx => {
                 Vector3 accel = ctx.ReadValue<Vector3>();
                 gyroSpeed = accel.x;
@@ -48,6 +53,24 @@ public class PlayerController : MonoBehaviour
         uIManager = FindAnyObjectByType<UIManager>();
         StartCoroutine(ApplyBySecondEffects());
         //InputManager.Controls.Player.ChangeGravity.performed += ctx => ChangeGravity();
+    }
+
+    void OnDisable()
+    {
+        InputManager.Controls.Player.Move.performed -= ctx =>{ 
+            moveInput = ctx.ReadValue<Vector2>();
+            player.setChargeDash(true);
+        };
+        InputManager.Controls.Player.Move.canceled -= ctx =>{ 
+            moveInput = Vector2.zero;
+            player.setChargeDash(false);
+        };
+        InputManager.Controls.Player.Tilt.performed -= ctx => {
+                Vector3 accel = ctx.ReadValue<Vector3>();
+                gyroSpeed = accel.x;
+            };
+        InputManager.Controls.Player.Tilt.canceled  -= ctx => gyroSpeed = 0f;
+        InputManager.Controls.Player.Shoot.performed -= ctx => Shoot(); 
     }
 
     IEnumerator ApplyBySecondEffects()

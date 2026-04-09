@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEditor.Search;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerStats: MonoBehaviour
 {
@@ -33,6 +35,9 @@ public class PlayerStats: MonoBehaviour
     [SerializeField]private bool canTimeSlow = false;
     [SerializeField]private float currentTimeStopCooldown;
     
+
+    public UnityEvent HealthRegained;
+    public UnityEvent HealthIncreased;
 
     [SerializeField] ItemSelectorMenu selectorMenu;
     PlayerController controller;
@@ -76,6 +81,7 @@ public class PlayerStats: MonoBehaviour
     {
         health += value;
         health = Math.Min(health, maxHealth);
+        HealthRegained.Invoke();
     }
 
     public void HealByRate()
@@ -124,6 +130,7 @@ public class PlayerStats: MonoBehaviour
     public void addMaxHealth(float value)
     {
         maxHealth += value;
+        HealthIncreased.Invoke();
     }
 
     public void ReduceTimeSlowCooldown(float value)
@@ -189,6 +196,22 @@ public class PlayerStats: MonoBehaviour
     {
         return health;
     }
+
+    public float getMaxHealth()
+    {
+        return maxHealth;
+    }
+
+    public float getMaxDash()
+    {
+        return maxDashEnergy;
+    }
+
+    public float getDash()
+    {
+        return dashEnergy;
+    }
+
     public float getSpeedBike()
     {
         return speed;

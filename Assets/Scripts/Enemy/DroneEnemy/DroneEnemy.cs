@@ -5,6 +5,8 @@ using UnityEngine;
 public class DroneEnemy : Enemy
 {
 
+    public float distanceToTarget;
+
     void Awake()
     {
         enemyChaseState = new DroneChaseState(this);

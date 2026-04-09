@@ -27,6 +27,7 @@ public class WinningMenu: MonoBehaviour
 
     public void ReturnMenu()
     {
+        Close();
         SceneManager.LoadScene(0);
     }
 }

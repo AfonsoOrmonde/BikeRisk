@@ -4,16 +4,24 @@ using UnityEngine;
 
 public class DroneChaseState: EnemyChaseState
 {
-    public DroneChaseState(Enemy enemy): base(enemy){}
+
+    Vector3 target;
+    new DroneEnemy enemy;
+    public DroneChaseState(DroneEnemy enemy): base(enemy)
+    {
+        this.enemy = enemy;
+            }
     public override void Enter()
     {
+        enemy.setSpeed(enemy.getPlayer().getSpeedBike() + 10);
+        target = Random.onUnitSphere;
     }
     public override void During()
     {
-        Vector3 newTarget = enemy.getPlayer().transform.position;
+        Vector3 targetPoint = enemy.getPlayer().transform.position + (target* enemy.distanceToTarget);
         if(!enemy.InRadius(enemy.getPlayer().gameObject)){
-            newTarget.y = enemy.transform.position.y;
-            enemy.Move(newTarget);
+            targetPoint.y = enemy.transform.position.y;
+            enemy.Move(targetPoint);
         }
         else
         {

@@ -17,7 +17,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected float cooldownOfAttack;
     private bool canAttack = true;
 
-    [SerializeField] float speed;
+    [SerializeField] protected float speed;
     // Start is called before the first frame update
     void Start()
     {
@@ -108,6 +108,17 @@ public class Enemy : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, radiusOfAttack);
+    }
+
+
+    public float getSpeed()
+    {
+        return speed;
+    }
+
+    public void setSpeed(float newSpeed)
+    {
+      speed = newSpeed;  
     }
 
 
