@@ -10,7 +10,7 @@ public class DroneChaseState: EnemyChaseState
     public DroneChaseState(DroneEnemy enemy): base(enemy)
     {
         this.enemy = enemy;
-            }
+    }
     public override void Enter()
     {
         enemy.setSpeed(enemy.getPlayer().getSpeedBike() + 10);

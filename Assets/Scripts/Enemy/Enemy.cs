@@ -21,16 +21,19 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("Entered in Start again");
         if(enemyChaseState == null)
             Debug.LogError("Chase state is null it hasnt been initialized");
-        enemyStateMachine = new EnemyStateMachine(enemyChaseState);
         player = FindAnyObjectByType<PlayerStats>();
+        enemyStateMachine = new EnemyStateMachine(enemyChaseState);
     }
 
     // Update is called once per frame
     void Update()
     {
-        enemyStateMachine.getCurrentState().During();
+        if (enemyStateMachine == null) return;
+        if(enemyStateMachine.getCurrentState() != null)
+            enemyStateMachine.getCurrentState().During();
     }
 
     public void TakeDamage(float damage)
