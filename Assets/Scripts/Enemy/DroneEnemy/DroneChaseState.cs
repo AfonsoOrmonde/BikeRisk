@@ -13,14 +13,20 @@ public class DroneChaseState: EnemyChaseState
     }
     public override void Enter()
     {
+        Debug.Log("Entered Chase state");
         enemy.setSpeed(enemy.getPlayer().getSpeedBike() + 10);
-        target = Random.onUnitSphere;
+        Vector2 randomCircle = Random.insideUnitCircle.normalized;
+        target = new Vector3(randomCircle.x, 0, randomCircle.y);
+        enemy.setTarget(target);
+        Debug.Log($"Target Point {target}");
     }
     public override void During()
     {
-        Vector3 targetPoint = enemy.getPlayer().transform.position + (target* enemy.distanceToTarget);
-        if(!enemy.InRadius(enemy.getPlayer().gameObject)){
-            targetPoint.y = enemy.transform.position.y;
+        
+        Vector3 targetPoint = enemy.getPlayer().transform.position + (enemy.getTarget()* enemy.distanceToTarget);
+        Debug.Log($"Target: {targetPoint} \n Drone: {enemy.gameObject.name}");
+        targetPoint.y = enemy.transform.position.y;
+        if(Vector3.Distance(enemy.transform.position, targetPoint)>0.5f){
             enemy.Move(targetPoint);
         }
         else

@@ -81,6 +81,7 @@ MonoBehaviour:
   radiusOfAttack: 25
   cooldownOfAttack: 3
   speed: 30
+  distanceToTarget: 10
 --- !u!1001 &8409338753752271210
 PrefabInstance:
   m_ObjectHideFlags: 0

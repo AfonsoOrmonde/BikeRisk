@@ -6,6 +6,7 @@ public class DroneEnemy : Enemy
 {
 
     public float distanceToTarget;
+    private Vector3 target;
 
     void Awake()
     {
@@ -13,6 +14,15 @@ public class DroneEnemy : Enemy
         enemyAttackState = new DroneAttackState(this);
     }
 
+    public Vector3 getTarget()
+    {
+        return target;
+    }
+
+    public void setTarget(Vector3 newTarget)
+    {
+        target = newTarget;
+    }
 
 
 }

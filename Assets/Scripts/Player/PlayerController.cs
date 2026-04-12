@@ -168,9 +168,9 @@ public class PlayerController : MonoBehaviour
     public void DetectedNewFloor(GameObject newFloor,RideableWall.WallType type)
     {
         Transform newFloorPosition = newFloor.transform;
-        Debug.Log($"Detect new Floor with vector = {newFloorPosition.forward}");
+        //Debug.Log($"Detect new Floor with vector = {newFloorPosition.forward}");
 
-        Debug.Log($"Wall forward: {newFloorPosition.forward}, Player forward: {transform.forward}, Player up: {transform.up}");
+        //Debug.Log($"Wall forward: {newFloorPosition.forward}, Player forward: {transform.forward}, Player up: {transform.up}");
 
 
         possibleNewDirection = newFloorPosition.forward;

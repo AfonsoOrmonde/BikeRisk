@@ -20,8 +20,9 @@ public class LevelManager: MonoBehaviour
     public IEnumerator SpawnEnemiesRoutinely()
     {
         yield return new WaitForSeconds(cooldownDroneSpawn);
-        GameObject obj = Instantiate(drone);
-        obj.transform.position = new Vector3(player.transform.position.x - distanceToSpawnAway, player.transform.position.y+8,player.transform.position.z);
-        
+        for(int i = 0; i <= numberOfDrones; i++){
+            GameObject obj = Instantiate(drone);
+            obj.transform.position = new Vector3(player.transform.position.x - distanceToSpawnAway, player.transform.position.y+8,player.transform.position.z);
+        }
     }
 }
