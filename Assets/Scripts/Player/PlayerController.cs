@@ -38,7 +38,8 @@ public class PlayerController : MonoBehaviour
         }
         InputManager.Controls.Player.Move.performed += ctx =>{ 
             moveInput = ctx.ReadValue<Vector2>();
-            player.setChargeDash(true);
+            if(moveInput.y>0)
+                player.setChargeDash(true);
         };
         InputManager.Controls.Player.Move.canceled += ctx =>{ 
             moveInput = Vector2.zero;
@@ -108,8 +109,8 @@ public class PlayerController : MonoBehaviour
     {
         float speed =  player.getSpeedBike();
         float combinedX = moveInput.x + gyroSpeed;
-        if (moveInput.y > 0)
-            speed *= player.getAcceleration();
+        if (moveInput.y > 0 && player.getDash() > 0)
+            speed *= player.getAcceleration(); 
         else if (moveInput.y < 0)
             speed *= player.getSlowDown();
             
@@ -117,7 +118,6 @@ public class PlayerController : MonoBehaviour
         Vector3 currentGravityVelocity = Vector3.Project(_rb.velocity, gravityDirection);
 
         _rb.velocity = transform.forward * speed + (transform.right * (combinedX * player.getSpeedTurning())) + currentGravityVelocity;
-        //Debug.Log(_rb.velocity);
     }
 
     void Shoot()
@@ -168,13 +168,7 @@ public class PlayerController : MonoBehaviour
     public void DetectedNewFloor(GameObject newFloor,RideableWall.WallType type)
     {
         Transform newFloorPosition = newFloor.transform;
-        //Debug.Log($"Detect new Floor with vector = {newFloorPosition.forward}");
-
-        //Debug.Log($"Wall forward: {newFloorPosition.forward}, Player forward: {transform.forward}, Player up: {transform.up}");
-
-
         possibleNewDirection = newFloorPosition.forward;
-
         ChangeGravityToDirection(possibleNewDirection,type);
     }
 
