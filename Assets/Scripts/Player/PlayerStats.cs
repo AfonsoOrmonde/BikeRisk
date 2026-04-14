@@ -20,6 +20,7 @@ public class PlayerStats: MonoBehaviour
     [SerializeField] float maxDashEnergy;
     [SerializeField] private float timeStopCooldown;
     [SerializeField] private float timeStopDuration;
+    [SerializeField] private float cooldownShooting;
 
     [Header("Debug")]
     [SerializeField]float dashEnergy;
@@ -32,7 +33,6 @@ public class PlayerStats: MonoBehaviour
     [SerializeField]private bool chargingDash = false;
     [SerializeField]private bool canTimeSlow = false;
     [SerializeField]private float currentTimeStopCooldown;
-    
 
     public UnityEvent HealthRegained;
     public UnityEvent HealthIncreased;
@@ -233,5 +233,10 @@ public class PlayerStats: MonoBehaviour
     public float getRadiusShooting()
     {
         return radiusShooting;
+    }
+
+    public float getShootCooldown()
+    {
+        return cooldownShooting;
     }
 }

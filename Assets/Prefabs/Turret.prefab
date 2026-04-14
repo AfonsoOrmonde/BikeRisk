@@ -72,6 +72,8 @@ MonoBehaviour:
   projectilePrefab: {fileID: 2047809860949816346, guid: 335dbf18c013cf4498198c78c1aebb24, type: 3}
   radiusOfAttack: 20
   cooldownOfAttack: 3
+  renderers: []
+  hitColor: {r: 0.9559748, g: 0.06914275, b: 0.06914275, a: 0}
   speed: 0
 --- !u!1 &8136117854555419312
 GameObject:

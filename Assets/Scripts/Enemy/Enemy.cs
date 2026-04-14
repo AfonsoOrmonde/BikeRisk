@@ -16,16 +16,32 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected float radiusOfAttack;
     [SerializeField] protected float cooldownOfAttack;
     private bool canAttack = true;
+    public Renderer[] renderers;
+    private Color[] originalColors;
+
+    [SerializeField] Color hitColor;
 
     [SerializeField] protected float speed;
     // Start is called before the first frame update
     void Start()
     {
+        setOriginalColors();
         Debug.Log("Entered in Start again");
         if(enemyChaseState == null)
             Debug.LogError("Chase state is null it hasnt been initialized");
         player = FindAnyObjectByType<PlayerStats>();
         enemyStateMachine = new EnemyStateMachine(enemyChaseState);
+    }
+
+
+    private void setOriginalColors()
+    {
+        renderers = GetComponentsInChildren<Renderer>();
+        originalColors = new Color[renderers.Length];
+        for (int i = 0; i < renderers.Length; i++)
+        {
+            originalColors[i] = renderers[i].material.color;
+        }
     }
 
     // Update is called once per frame
@@ -39,9 +55,23 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(float damage)
     {
         health -= damage;
+        StartCoroutine(FlashDamage());
         Debug.Log($"New health Enemy = {health}");
         if(health<=0)
             Destroy(gameObject);
+    }
+
+    private IEnumerator FlashDamage()
+    {
+        for(int i = 0; i<renderers.Length; i++)
+        {
+           renderers[i].material.color = hitColor;
+        }
+        yield return new WaitForSeconds(0.1f);
+        for(int i = 0; i<renderers.Length; i++)
+        {
+           renderers[i].material.color = originalColors[i];
+        }
     }
 
     public void Move(Vector3 target)

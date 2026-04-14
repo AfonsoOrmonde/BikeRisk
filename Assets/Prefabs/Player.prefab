@@ -248,6 +248,7 @@ MonoBehaviour:
   maxDashEnergy: 100
   timeStopCooldown: 60
   timeStopDuration: 5
+  cooldownShooting: 1
   dashEnergy: 0
   health: 100
   energyRechargeRate: 5
@@ -258,6 +259,12 @@ MonoBehaviour:
   chargingDash: 0
   canTimeSlow: 0
   currentTimeStopCooldown: 0
+  HealthRegained:
+    m_PersistentCalls:
+      m_Calls: []
+  HealthIncreased:
+    m_PersistentCalls:
+      m_Calls: []
   selectorMenu: {fileID: 0}
 --- !u!54 &5465826768761834980
 Rigidbody:

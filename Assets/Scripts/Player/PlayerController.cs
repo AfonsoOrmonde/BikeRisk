@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float Gravity;
     [SerializeField] private float rotationTimer;
     [SerializeField] private float rateOfVelocityInterpolation;
+    private bool canShoot = true;
     Vector3 possibleNewDirection;
 
     UIManager uIManager;
@@ -122,6 +123,8 @@ public class PlayerController : MonoBehaviour
 
     void Shoot()
     {
+        if(!canShoot){return;}
+
         Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f));
         RaycastHit hit;
 
@@ -138,6 +141,14 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Hit nothing");
         }
+        StartCoroutine(ShootCooldown());
+    }
+
+    private IEnumerator ShootCooldown()
+    {
+        canShoot = false;
+        yield return new WaitForSeconds(player.getShootCooldown());
+        canShoot = true;
     }
 
     public void PlayerDied()
