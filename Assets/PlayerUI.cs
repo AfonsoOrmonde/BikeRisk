@@ -32,7 +32,6 @@ public class PlayerUI : MonoBehaviour
 
     public void SetMaxDash()
     {
-        Debug.Log($"Max dash = {playerStats.getMaxDash()}");
         dashSlider.maxValue = playerStats.getMaxDash();
         SetDash();
     }

@@ -18,7 +18,6 @@ public class TouchButtons : MonoBehaviour
         if (Accelerometer.current != null){
             InputSystem.EnableDevice(Accelerometer.current);
             Debug.Log("Gyroscope present");
-        
         }
     }
 
@@ -27,7 +26,6 @@ public class TouchButtons : MonoBehaviour
         if (Accelerometer.current != null){
             InputSystem.DisableDevice(Accelerometer.current);
             Debug.Log("Gyroscope present");
-        
         }
     }
 
@@ -40,13 +38,13 @@ public class TouchButtons : MonoBehaviour
         group.alpha = 1;
     }
 
-    public void BackButton()
+    public void MovementButton(float value)
     {
-        
+        playerController.setMoveY(value);
     }
 
-    public void ForwardButton()
+    public void ShootingButton()
     {
-        
+        playerController.Shoot();
     }
 }

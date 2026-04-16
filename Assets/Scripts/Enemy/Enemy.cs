@@ -26,7 +26,6 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         setOriginalColors();
-        Debug.Log("Entered in Start again");
         if(enemyChaseState == null)
             Debug.LogError("Chase state is null it hasnt been initialized");
         player = FindAnyObjectByType<PlayerStats>();

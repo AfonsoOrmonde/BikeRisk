@@ -121,7 +121,7 @@ public class PlayerController : MonoBehaviour
         _rb.velocity = transform.forward * speed + (transform.right * (combinedX * player.getSpeedTurning())) + currentGravityVelocity;
     }
 
-    void Shoot()
+    public void Shoot()
     {
         if(!canShoot){return;}
 
@@ -183,6 +183,11 @@ public class PlayerController : MonoBehaviour
         ChangeGravityToDirection(possibleNewDirection,type);
     }
 
+
+    public void setMoveY(float value)
+    {
+        moveInput.y = value;
+    }
 
     void OnGUI()
     {
