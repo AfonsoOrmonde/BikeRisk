@@ -5,13 +5,12 @@ public class TouchButtons : MonoBehaviour
 {
     PlayerController playerController;
     bool active;
-    CanvasGroup group;
+    [SerializeField] CanvasGroup group;
 
     float dx;
     void Start()
     {
         playerController = FindAnyObjectByType<PlayerController>();
-
     }
 
     void OnEnable()

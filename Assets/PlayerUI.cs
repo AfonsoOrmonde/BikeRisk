@@ -20,8 +20,9 @@ public class PlayerUI : MonoBehaviour
         #endif
 
         playerStats = FindAnyObjectByType<PlayerStats>();
+        Debug.Log("Entered Player ui setup");
         SetMaxHealth();
-
+        SetMaxDash();
     }
 
     void Update()
@@ -31,6 +32,7 @@ public class PlayerUI : MonoBehaviour
 
     public void SetMaxDash()
     {
+        Debug.Log($"Max dash = {playerStats.getMaxDash()}");
         dashSlider.maxValue = playerStats.getMaxDash();
         SetDash();
     }
@@ -42,6 +44,8 @@ public class PlayerUI : MonoBehaviour
 
     public void SetMaxHealth()
     {
+                Debug.Log($"Max helth = {playerStats.getMaxHealth()}");
+
         healthSlider.maxValue = playerStats.getMaxHealth();
         healthSlider.value = playerStats.getHealth();
     }
