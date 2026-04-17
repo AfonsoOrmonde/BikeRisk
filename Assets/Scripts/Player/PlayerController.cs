@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float Gravity;
     [SerializeField] private float rotationTimer;
     [SerializeField] private float rateOfVelocityInterpolation;
+    [SerializeField] private GameObject projectile;
     private bool canShoot = true;
     Vector3 possibleNewDirection;
 
@@ -27,6 +28,8 @@ public class PlayerController : MonoBehaviour
     void Awake()
     { 
         playerMask= ~LayerMask.GetMask("Player");
+        GetComponent<Rigidbody>().interpolation = RigidbodyInterpolation.Interpolate;
+
     }
 
     void Start()
@@ -130,17 +133,15 @@ public class PlayerController : MonoBehaviour
 
         AudioManager.Instance.playSFX("Shooting");
 
-        if(Physics.SphereCast(ray, player.getRadiusShooting(), out hit, 1000f, playerMask)){
-            if(hit.collider.TryGetComponent(out Enemy enemy))
-            {
-                enemy.TakeDamage(player.getDamage());
-                player.HealByLifeSteal();
-            }
-        }
-        else 
-        {
-            Debug.Log("Hit nothing");
-        }
+        Vector3 targetPoint ;
+        if (Physics.Raycast(ray, out hit, 1000f, playerMask))
+                targetPoint = hit.point;
+            else
+                targetPoint = ray.GetPoint(1000f);
+
+        Projectile bullet = Instantiate(projectile, this.transform.position, this.transform.rotation).GetComponent<Projectile>();
+        bullet.SetHardTarget(targetPoint);
+
         StartCoroutine(ShootCooldown());
     }
 

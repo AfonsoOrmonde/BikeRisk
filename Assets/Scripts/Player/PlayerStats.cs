@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class PlayerStats: MonoBehaviour
+public class PlayerStats: MonoBehaviour, IDamageable
 {
     [SerializeField] float maxHealth;
     [SerializeField] float speed;

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2087775211561703024}
   - component: {fileID: 8152915940745777752}
   - component: {fileID: 5550723499713897698}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Drone
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -144,9 +144,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6733177361254619370, guid: 68095bf759abdae4c8d2eb4685cd2891, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 68095bf759abdae4c8d2eb4685cd2891, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -1018664272722485354, guid: 68095bf759abdae4c8d2eb4685cd2891, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 68095bf759abdae4c8d2eb4685cd2891, type: 3}
       propertyPath: m_Name
       value: Drone
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 68095bf759abdae4c8d2eb4685cd2891, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849762623622064168, guid: 68095bf759abdae4c8d2eb4685cd2891, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8513859187771203891, guid: 68095bf759abdae4c8d2eb4685cd2891, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -222,6 +222,7 @@ MonoBehaviour:
   Gravity: 60
   rotationTimer: 3
   rateOfVelocityInterpolation: 15
+  projectile: {fileID: 2047809860949816346, guid: 85071e576621e2f4a833c9ed132063e0, type: 3}
 --- !u!114 &2392386487586427862
 MonoBehaviour:
   m_ObjectHideFlags: 0
