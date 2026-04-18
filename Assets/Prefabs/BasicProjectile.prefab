@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
-  extraDistance: 4
+  extraDistance: 100
   damage: 10
   tohit:
     serializedVersion: 2

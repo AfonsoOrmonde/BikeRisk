@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
 
     private float gyroSpeed = 0; //this variable is only used for when in android
     private PlayerStats player;
-    LayerMask playerMask;
+    [SerializeField] LayerMask toNotHitMask;
     [SerializeField] private float groundCheckDistance = 1.1f;
     [SerializeField]private Transform GravityAnchor;
     [SerializeField] private float Gravity;
@@ -27,9 +27,7 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     { 
-        playerMask= ~LayerMask.GetMask("Player");
         GetComponent<Rigidbody>().interpolation = RigidbodyInterpolation.Interpolate;
-
     }
 
     void Start()
@@ -134,13 +132,17 @@ public class PlayerController : MonoBehaviour
         AudioManager.Instance.playSFX("Shooting");
 
         Vector3 targetPoint ;
-        if (Physics.Raycast(ray, out hit, 1000f, playerMask))
+        if (Physics.Raycast(ray, out hit, 1000f, ~toNotHitMask))
                 targetPoint = hit.point;
             else
                 targetPoint = ray.GetPoint(1000f);
 
         Projectile bullet = Instantiate(projectile, this.transform.position, this.transform.rotation).GetComponent<Projectile>();
-        bullet.SetHardTarget(targetPoint);
+        
+        if(hit.collider is null)
+            bullet.SetHardTarget(targetPoint, null);
+        else
+            bullet.SetHardTarget(targetPoint, hit.collider.gameObject);
 
         StartCoroutine(ShootCooldown());
     }

@@ -118,9 +118,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d594064896b89468e79cd2f2f911ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 700
-  extraDistance: 4
+  speed: 500
+  extraDistance: 1
   damage: 10
   tohit:
     serializedVersion: 2
     m_Bits: 128
+  hit: {fileID: 0}
