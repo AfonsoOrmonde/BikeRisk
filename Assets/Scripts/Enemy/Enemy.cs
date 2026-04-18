@@ -22,9 +22,13 @@ public class Enemy : MonoBehaviour, IDamageable
     [SerializeField] Color hitColor;
 
     [SerializeField] protected float speed;
+
+    [SerializeField] private float rotationSpeed;
+    private Vector3 initialUp;
     // Start is called before the first frame update
     void Start()
     {
+        initialUp = transform.up;
         setOriginalColors();
         if(enemyChaseState == null)
             Debug.LogError("Chase state is null it hasnt been initialized");
@@ -49,6 +53,7 @@ public class Enemy : MonoBehaviour, IDamageable
         if (enemyStateMachine == null) return;
         if(enemyStateMachine.getCurrentState() != null)
             enemyStateMachine.getCurrentState().During();
+
     }
 
     public void TakeDamage(float damage)
@@ -90,10 +95,16 @@ public class Enemy : MonoBehaviour, IDamageable
 
     public void RotateEnemy(GameObject target)
     {
-        Vector3 lookVector = player.transform.position - transform.position;
-        lookVector.y = 0f;
-        Quaternion rotationToGo = Quaternion.LookRotation(lookVector);
-        transform.rotation = Quaternion.Slerp(transform.rotation, rotationToGo, 1);
+        Vector3 lookVector = target.transform.position - transform.position;
+        Vector3 projectedDirection = Vector3.ProjectOnPlane(lookVector, initialUp);
+        if (projectedDirection == Vector3.zero) return;
+
+        //if(rotationInitial.x == 0)
+            //lookVector.y = 0f;
+        //else
+            //lookVector.z = 0f;
+        Quaternion targetRotation = Quaternion.LookRotation(projectedDirection, initialUp);
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
 
     public void Attack(GameObject player)

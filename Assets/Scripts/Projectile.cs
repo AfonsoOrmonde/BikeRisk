@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    private Vector3 target;
-    private bool hasTarget = false;
-    [SerializeField] float speed;
+    protected Vector3 target;
+    protected bool hasTarget = false;
+    [SerializeField] protected float speed;
     [SerializeField] float extraDistance;
-    [SerializeField] float damage;
+    [SerializeField]protected float damage;
     public LayerMask tohit;
 
     public GameObject hit;
@@ -29,7 +29,7 @@ public class Projectile : MonoBehaviour
     }
 
 
-    void Update()
+    protected virtual void Update()
     {
         if(!hasTarget) return;
 
@@ -43,17 +43,6 @@ public class Projectile : MonoBehaviour
                 damageable.TakeDamage(damage);
             Destroy(gameObject);
         }
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        /*if((tohit.value & 1<<other.gameObject.layer) != 0){
-            Debug.Log("Entering Here");
-            if(other.TryGetComponent(out IDamageable damageable)){
-                Debug.Log("Entering damage dealer");
-                damageable.TakeDamage(damage);}
-            Destroy(gameObject);
-        }*/
     }
 
 }
