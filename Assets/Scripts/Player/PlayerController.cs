@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float rateOfVelocityInterpolation;
     [SerializeField] private GameObject projectile;
     private bool canShoot = true;
+    private bool dead = false;
     Vector3 possibleNewDirection;
 
     UIManager uIManager;
@@ -32,6 +33,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        dead = false;
         _rb = GetComponent<Rigidbody>();
         player = GetComponent<PlayerStats>();
         if(player is null)
@@ -55,7 +57,6 @@ public class PlayerController : MonoBehaviour
         InputManager.Controls.Player.Shoot.performed += ctx => Shoot();
         uIManager = FindAnyObjectByType<UIManager>();
         StartCoroutine(ApplyBySecondEffects());
-        //InputManager.Controls.Player.ChangeGravity.performed += ctx => ChangeGravity();
     }
 
     void OnDisable()
@@ -156,8 +157,9 @@ public class PlayerController : MonoBehaviour
 
     public void PlayerDied()
     {
+        dead = true;
         uIManager.OpenDying();
-        Destroy(this);
+        this.enabled = false;
     }
     void ChangeGravityToDirection(Vector3 newUp, RideableWall.WallType type)
     {
@@ -215,4 +217,10 @@ public class PlayerController : MonoBehaviour
         prevPoint = newPoint;
     }
 }
+
+    public bool getDeathStatus()
+    {
+        return dead;
+    }
+
 }

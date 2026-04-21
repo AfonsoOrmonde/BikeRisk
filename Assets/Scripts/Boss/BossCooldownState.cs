@@ -10,10 +10,13 @@ public class BossCooldownState: BossState
     }
     public override void Enter()
     {
+        boss.StartCooldown();
+        boss.setVelocityBoss(new Vector3(boss.getBossSpeed(),0,0));
     }
     public override void During()
     {
-        
+        if(boss.getCanAttack())
+            boss.ChangeToAttack();
     }
     public override void Leave()
     {

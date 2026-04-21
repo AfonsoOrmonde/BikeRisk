@@ -174,7 +174,6 @@ public class PlayerStats: MonoBehaviour, IDamageable
             health -= damageToTake;
             if(health <= 0)
             {
-                Debug.Log("PLayer has died");
                 controller.PlayerDied();
             }
         }

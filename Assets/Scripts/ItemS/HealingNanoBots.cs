@@ -8,7 +8,6 @@ public class HealingNanoBots : Item
     {
         base.ApplyEffect(player);
         player.addHealingRate(0.01f);
-        //Debug.Log("Applying item: Double Barrel");
-        //player.addDamageModifier(2);
+
     }
 }

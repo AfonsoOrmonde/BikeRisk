@@ -20,7 +20,6 @@ public class PlayerUI : MonoBehaviour
         #endif
 
         playerStats = FindAnyObjectByType<PlayerStats>();
-        Debug.Log("Entered Player ui setup");
         SetMaxHealth();
         SetMaxDash();
     }
@@ -58,7 +57,6 @@ public class PlayerUI : MonoBehaviour
     {
         playerStats.HealthRegained.AddListener(SetHealth);
         playerStats.HealthIncreased.AddListener(SetMaxHealth);
-        Debug.Log("Got to enable listernes of health");
     }
     void OnDisable()
     {

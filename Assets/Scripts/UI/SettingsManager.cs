@@ -23,7 +23,6 @@ using UnityEngine.UI;
 
         public void sfxVolumeChange(float volume)
         {
-            Debug.Log(volume);
             AudioManager.Instance.changeSFXVolume(volume);
         }
 

@@ -2,7 +2,12 @@ using UnityEngine;
 
 public class EnemyProjectile : Projectile
 {
-
+    public void SetHardPosition(Vector3 targetPoint)
+    {
+        hasTarget = true;
+        Vector3 extraDistanceVector  = (targetPoint - this.transform.position).normalized *extraDistance;
+        target = targetPoint +  extraDistanceVector;
+    }
     protected override void Update()
     {
         if(!hasTarget) return;
@@ -12,7 +17,6 @@ public class EnemyProjectile : Projectile
         transform.position = Vector3.MoveTowards(transform.position, target, step);
         
         if(Vector3.Distance(transform.position,target)<= 0.5){
-            Debug.Log("Destrying bullet");
             Destroy(gameObject);
         }
     }
@@ -20,9 +24,7 @@ public class EnemyProjectile : Projectile
     void OnTriggerEnter(Collider other)
     {
         if((tohit.value & 1<<other.gameObject.layer) != 0){
-            Debug.Log("Entering Here");
             if(other.TryGetComponent(out IDamageable damageable)){
-                Debug.Log("Entering damage dealer");
                 damageable.TakeDamage(damage);}
             Destroy(gameObject);
         }

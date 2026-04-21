@@ -60,7 +60,6 @@ public class Enemy : MonoBehaviour, IDamageable
     {
         health -= damage;
         StartCoroutine(FlashDamage());
-        Debug.Log($"New health Enemy = {health}");
         if(health<=0)
             Destroy(gameObject);
     }

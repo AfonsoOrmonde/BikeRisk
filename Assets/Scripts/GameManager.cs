@@ -21,7 +21,16 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+
+    }
+    public void StartGame()
+    {
         AudioManager.Instance.playMusic("MainMusic");
+    }
+
+    public void EndGame()
+    {
+        AudioManager.Instance.stopMusic();
     }
 
     public void PauseGame()
@@ -32,7 +41,6 @@ public class GameManager : MonoBehaviour
 
     public IEnumerator SlowDownTime(float scale, float AmountOfTime)
     {
-        Debug.Log("Entering in Slow Down Time.");
         Time.timeScale = scale;
         Time.fixedDeltaTime = 0.02f * Time.timeScale;
         yield return new WaitForSeconds(AmountOfTime);

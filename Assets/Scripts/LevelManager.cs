@@ -15,6 +15,7 @@ public class LevelManager: MonoBehaviour
     {
         player = FindAnyObjectByType<PlayerStats>();
         StartCoroutine(SpawnEnemiesRoutinely());
+        GameManager.Instance.StartGame();
     }
 
     public IEnumerator SpawnEnemiesRoutinely()

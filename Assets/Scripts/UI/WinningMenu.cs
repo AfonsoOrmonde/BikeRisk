@@ -5,7 +5,6 @@ public class WinningMenu: MonoBehaviour
 {
     CanvasGroup group;
 
-
     public void Start()
     {
         group = GetComponent<CanvasGroup>();

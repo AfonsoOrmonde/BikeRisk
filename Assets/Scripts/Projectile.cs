@@ -5,7 +5,7 @@ public class Projectile : MonoBehaviour
     protected Vector3 target;
     protected bool hasTarget = false;
     [SerializeField] protected float speed;
-    [SerializeField] float extraDistance;
+    [SerializeField]protected  float extraDistance;
     [SerializeField]protected float damage;
     public LayerMask tohit;
 
@@ -38,7 +38,6 @@ public class Projectile : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, target, step);
         
         if(Vector3.Distance(transform.position,target)<= 0.5){
-            Debug.Log("Destrying bullet");
             if (hit != null && hit.TryGetComponent(out IDamageable damageable))
                 damageable.TakeDamage(damage);
             Destroy(gameObject);

@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class DeathMenu : MonoBehaviour
 {
     CanvasGroup group;
-
     void Start()
     {
         group = GetComponent<CanvasGroup>();
@@ -22,13 +21,14 @@ public class DeathMenu : MonoBehaviour
     public void Close()
     {
         group.blocksRaycasts = false;
-        group.alpha = 1;
+        group.alpha = 0;
         group.interactable = false;  
     }
 
     public void ReturnMenu()
     {
         Close();
+        GameManager.Instance.EndGame();
         SceneManager.LoadScene(0);
     }
 }

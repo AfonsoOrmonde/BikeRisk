@@ -12,6 +12,8 @@ public class InputManager : MonoBehaviour
             Controls = new Bker();
             Controls.Enable(); 
         }
+        else
+            Controls.Enable(); 
     }
 
     private void OnDestroy()
