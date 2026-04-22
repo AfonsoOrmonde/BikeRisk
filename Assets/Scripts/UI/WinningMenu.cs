@@ -15,6 +15,7 @@ public class WinningMenu: MonoBehaviour
         group.blocksRaycasts = true;
         group.alpha = 1;
         group.interactable = true;
+        GameManager.Instance.PauseGame();
     }
 
     public void Close()
@@ -27,6 +28,7 @@ public class WinningMenu: MonoBehaviour
     public void ReturnMenu()
     {
         Close();
+        GameManager.Instance.EndGame();
         SceneManager.LoadScene(0);
     }
 }

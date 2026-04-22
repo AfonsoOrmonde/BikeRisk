@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         AudioManager.Instance.playMusic("MainMusic");
+        ContinueGame();
     }
 
     public void EndGame()
@@ -37,6 +38,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0f;
         isPaused = true;
+        UnlockMouse();
     }
 
     public IEnumerator SlowDownTime(float scale, float AmountOfTime)
@@ -51,5 +53,18 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         isPaused = false;
+        LockMouse();   
+    }
+
+    public void LockMouse()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
+    public void UnlockMouse()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }

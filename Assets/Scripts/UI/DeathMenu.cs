@@ -16,6 +16,7 @@ public class DeathMenu : MonoBehaviour
         group.blocksRaycasts = true;
         group.alpha = 1;
         group.interactable = true;
+        GameManager.Instance.PauseGame();
     }
 
     public void Close()
