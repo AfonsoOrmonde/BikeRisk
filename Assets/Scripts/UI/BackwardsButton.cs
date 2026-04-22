@@ -1,14 +1,14 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class BackwardsButton : MonoBehaviour, IPointerClickHandler, IPointerUpHandler
+public class BackwardsButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     TouchButtons androidButtonMenu;
     void Start()
     {
         androidButtonMenu = GetComponentInParent<TouchButtons>();
     }
-    public void OnPointerClick(PointerEventData eventData)
+    public void OnPointerDown(PointerEventData eventData)
     {
         androidButtonMenu.MovementButton(-1);
     }

@@ -4,6 +4,7 @@ using UnityEngine.InputSystem.LowLevel;
 public class TouchButtons : MonoBehaviour
 {
     PlayerController playerController;
+    PlayerStats playerStats;
     bool active;
     [SerializeField] CanvasGroup group;
 
@@ -11,6 +12,7 @@ public class TouchButtons : MonoBehaviour
     void Start()
     {
         playerController = FindAnyObjectByType<PlayerController>();
+        playerStats = FindAnyObjectByType<PlayerStats>();
     }
 
     void OnEnable()
@@ -40,6 +42,10 @@ public class TouchButtons : MonoBehaviour
 
     public void MovementButton(float value)
     {
+        if(value > 0)
+            playerStats.setChargeDash(true);
+        else
+            playerStats.setChargeDash(false);
         playerController.setMoveY(value);
     }
 

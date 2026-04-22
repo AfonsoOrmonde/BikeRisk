@@ -1,14 +1,14 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ForwardButton : MonoBehaviour, IPointerClickHandler, IPointerUpHandler
+public class ForwardButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     TouchButtons androidButtonMenu;
     void Start()
     {
         androidButtonMenu = GetComponentInParent<TouchButtons>();
     }
-    public void OnPointerClick(PointerEventData eventData)
+    public void OnPointerDown(PointerEventData eventData)
     {
         Debug.Log("Clicking Down On forward Button");
         androidButtonMenu.MovementButton(1);
