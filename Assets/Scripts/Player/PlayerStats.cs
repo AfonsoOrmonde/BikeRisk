@@ -39,6 +39,7 @@ public class PlayerStats: MonoBehaviour, IDamageable
 
     [SerializeField] ItemSelectorMenu selectorMenu;
     PlayerController controller;
+    PlayerAppearance playerAppearance;
     private List<ItemData> equippedItems = new List<ItemData>();
 
 
@@ -53,7 +54,8 @@ public class PlayerStats: MonoBehaviour, IDamageable
         }
 
         selectorMenu = FindAnyObjectByType<ItemSelectorMenu>();
-        controller = FindAnyObjectByType<PlayerController>();
+        controller = GetComponent<PlayerController>();
+        playerAppearance = GetComponent<PlayerAppearance>();
         dashEnergy = maxDashEnergy;
         health = maxHealth;
         currentTimeStopCooldown = timeStopCooldown;
@@ -181,6 +183,7 @@ public class PlayerStats: MonoBehaviour, IDamageable
     {
         if(!RandomizerManager.RandomActivation(blockModifier)){
             health -= damageToTake;
+            playerAppearance.HitFeeback();
             if(health <= 0)
             {
                 controller.PlayerDied();
