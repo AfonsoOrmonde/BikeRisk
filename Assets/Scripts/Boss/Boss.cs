@@ -95,7 +95,9 @@ public class Boss: MonoBehaviour, IDamageable
     public void TakeDamage(float value)
     {
         health -= value;
-        if(health <= 0)
+        if(health <= 0){
             gameObject.SetActive(false);
+            GameState.Instance.unlockSkin(CharacterSelector.Instance.indexOfCharacter);
+        }
     }
 }

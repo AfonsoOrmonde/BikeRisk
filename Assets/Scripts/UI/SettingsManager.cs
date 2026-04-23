@@ -48,6 +48,10 @@ using UnityEngine.UI;
             {
                 mainMenuUIManager.OpenMenu();
             }
+            else
+            {
+                GameManager.Instance.ContinueGame();
+            }
         }
 
     }

@@ -139,7 +139,7 @@ public class PlayerController : MonoBehaviour
                 targetPoint = ray.GetPoint(1000f);
 
         Projectile bullet = Instantiate(projectile, this.transform.position, this.transform.rotation).GetComponent<Projectile>();
-        
+        bullet.setDamage(player.getDamage());
         if(hit.collider is null)
             bullet.SetHardTarget(targetPoint, null);
         else

@@ -28,6 +28,11 @@ public class Projectile : MonoBehaviour
             hit = newTarget;
     }
 
+    public void setDamage(float damageModifier)
+    {
+        damage = damageModifier;
+    }
+
 
     protected virtual void Update()
     {

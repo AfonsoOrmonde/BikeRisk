@@ -8,6 +8,8 @@ public class LevelManager: MonoBehaviour
     [SerializeField] int numberOfDrones;
     [SerializeField]int distanceToSpawnAway;
     private PlayerStats player;
+    private PlayerAppearance playerBody;
+    public int LEVEL_NUMBER;
 
     public GameObject drone;
 

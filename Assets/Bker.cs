@@ -258,7 +258,7 @@ public partial class @Bker: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""53cbd514-828d-4eb6-bcb2-32b2fb0bc7dd"",
-                    ""path"": ""<Keyboard>/escape"",
+                    ""path"": ""<Keyboard>/p"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

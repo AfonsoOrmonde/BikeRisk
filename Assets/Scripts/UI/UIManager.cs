@@ -11,9 +11,6 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
-    }
-    void OnEnable()
-    {
         InputManager.Controls.UI.OpenSetingsMenu.performed += ctx =>
         {
             OpenCloseSettings();
@@ -30,10 +27,14 @@ public class UIManager : MonoBehaviour
     public void OpenCloseSettings()
     {
         if(!GameManager.Instance.isPaused){
-            if(!settingsOpen)
+            if(!settingsOpen){
                 SettingsMenu.Open();
-            else
-                SettingsMenu.Close();}
+                settingsOpen = true;
+                GameManager.Instance.PauseGame();}
+            else{
+                SettingsMenu.Close();
+                settingsOpen = false;
+                GameManager.Instance.ContinueGame();}}
     }
     public void OpenDying()
     {

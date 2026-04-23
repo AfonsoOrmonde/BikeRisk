@@ -44,11 +44,20 @@ public class PlayerStats: MonoBehaviour, IDamageable
 
     void Start()
     {
+        if (GameState.Instance.godMode)
+        {
+           maxHealth = 1000000;
+           maxDashEnergy = 10000000;
+           speed = 100;
+           damage = 500; 
+        }
+
         selectorMenu = FindAnyObjectByType<ItemSelectorMenu>();
         controller = FindAnyObjectByType<PlayerController>();
         dashEnergy = maxDashEnergy;
         health = maxHealth;
         currentTimeStopCooldown = timeStopCooldown;
+
     }
 
     void Update()
