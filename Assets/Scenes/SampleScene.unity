@@ -244,6 +244,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (25)
@@ -316,6 +320,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -454,6 +462,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (26)
@@ -526,6 +538,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -853,6 +869,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -1301,6 +1321,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (62)
@@ -1561,6 +1585,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (18)
@@ -1697,6 +1725,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (57)
@@ -1769,6 +1801,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -2478,6 +2514,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (29)
@@ -2805,9 +2845,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3008,6 +3060,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (30)
@@ -3080,6 +3136,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -3280,6 +3340,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (1)
@@ -3414,6 +3478,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -3897,9 +3965,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4161,9 +4241,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4290,6 +4382,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -4453,6 +4549,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -4656,9 +4756,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4728,6 +4840,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -4926,6 +5042,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -5138,9 +5258,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5522,6 +5654,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (64)
@@ -5658,6 +5794,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (20)
@@ -5730,6 +5870,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -6380,6 +6524,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (48)
@@ -6452,6 +6600,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -6528,9 +6680,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6974,6 +7138,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (2)
@@ -7046,6 +7214,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -7618,6 +7790,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (4)
@@ -7754,9 +7930,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7826,6 +8014,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -8086,6 +8278,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -8408,6 +8604,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -8797,6 +8997,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (50)
@@ -9161,9 +9365,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9699,6 +9915,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (63)
@@ -9771,6 +9991,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -10093,6 +10317,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -10479,9 +10707,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10675,6 +10915,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -10937,6 +11181,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (3)
@@ -11197,9 +11445,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11395,6 +11655,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (19)
@@ -11469,9 +11733,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11853,6 +12129,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (45)
@@ -12049,6 +12329,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -12371,6 +12655,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -13013,6 +13301,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (43)
@@ -13437,6 +13729,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (1)
@@ -13764,9 +14060,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13904,9 +14212,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14288,6 +14608,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (5)
@@ -14613,6 +14937,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -15185,6 +15513,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2
@@ -15709,6 +16041,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (22)
@@ -16101,9 +16437,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16434,6 +16782,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (25)
@@ -16506,6 +16858,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -16830,9 +17186,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17033,9 +17401,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17105,6 +17485,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -17491,6 +17875,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (61)
@@ -17689,9 +18077,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17818,6 +18218,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -18057,6 +18461,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -18509,9 +18917,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18960,6 +19380,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (65)
@@ -19344,6 +19768,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (19)
@@ -19608,9 +20036,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19682,9 +20122,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19956,6 +20408,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -20488,6 +20944,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (10)
@@ -20746,6 +21206,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -21437,9 +21901,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21571,6 +22047,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -22272,6 +22752,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (10)
@@ -22468,6 +22952,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -22974,9 +23462,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23757,6 +24257,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (58)
@@ -24021,9 +24525,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24279,6 +24795,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -25396,6 +25916,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (46)
@@ -25646,9 +26170,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25780,6 +26316,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -26045,6 +26585,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -26674,9 +27218,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26746,6 +27302,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -27441,9 +28001,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27763,9 +28335,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28239,6 +28823,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (68)
@@ -28313,9 +28901,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28519,6 +29119,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (23)
@@ -28591,6 +29195,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -28954,6 +29562,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (8)
@@ -29032,9 +29644,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29609,9 +30233,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30179,9 +30815,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30504,9 +31152,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30702,9 +31362,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30774,6 +31446,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -31016,6 +31692,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -31340,6 +32020,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (44)
@@ -31474,6 +32158,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -31798,6 +32486,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (56)
@@ -31872,9 +32564,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32194,6 +32898,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (66)
@@ -32390,6 +33098,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -32781,6 +33493,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3
@@ -32853,6 +33569,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -32989,6 +33709,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -33251,6 +33975,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (28)
@@ -33509,6 +34237,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -33833,6 +34565,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (35)
@@ -34129,6 +34865,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (7)
@@ -34331,9 +35071,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34529,6 +35281,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (27)
@@ -34665,9 +35421,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34861,6 +35629,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -35506,9 +36278,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35952,6 +36736,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_Name
       value: Building3 (17)
@@ -36150,9 +36938,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36286,9 +37086,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36554,6 +37366,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (32)
@@ -36631,6 +37447,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -37037,6 +37857,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (38)
@@ -37111,9 +37935,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37617,6 +38453,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -38220,9 +39060,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38292,6 +39144,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -38549,6 +39405,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (60)
@@ -38747,9 +39607,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39011,9 +39883,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39269,6 +40153,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -39593,6 +40481,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (16)
@@ -39671,9 +40563,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40015,6 +40919,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (4)
@@ -40087,6 +40995,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -40225,9 +41137,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40857,6 +41781,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (31)
@@ -41055,9 +41983,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41127,6 +42067,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
@@ -41401,9 +42345,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41537,6 +42493,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b72af1f5581dbaf429c61ab353e5dd42, type: 3}
       propertyPath: m_Name
       value: Building2 (26)
@@ -41611,9 +42571,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
       propertyPath: m_Name
       value: Building1 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: e22235c1207e4ed499fb58825f1216f2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41807,6 +42779,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0d1efe564c8fd17408369dd2531d9c51, type: 3}
@@ -42420,7 +43396,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1467733871867117162, guid: f4fbfb4ef7178c2479a530aca0868cfe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0000038146973
       objectReference: {fileID: 0}
     - target: {fileID: 1467733871867117162, guid: f4fbfb4ef7178c2479a530aca0868cfe, type: 3}
       propertyPath: m_LocalRotation.w
@@ -42456,7 +43432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3617561545261907910, guid: f4fbfb4ef7178c2479a530aca0868cfe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0000038146973
       objectReference: {fileID: 0}
     - target: {fileID: 3617561545261907910, guid: f4fbfb4ef7178c2479a530aca0868cfe, type: 3}
       propertyPath: m_LocalRotation.w
