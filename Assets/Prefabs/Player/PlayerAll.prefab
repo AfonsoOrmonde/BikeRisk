@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 3
-  m_FollowOffset: {x: 0, y: 10, z: -6}
+  m_FollowOffset: {x: 0, y: 10, z: -8}
   m_XDamping: 0
   m_YDamping: 0
   m_ZDamping: 1
@@ -186,7 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 3
-  m_FollowOffset: {x: 0, y: 10, z: -6}
+  m_FollowOffset: {x: 0, y: 10, z: -8}
   m_XDamping: 0
   m_YDamping: 0
   m_ZDamping: 1
@@ -279,7 +279,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3807395713048598052}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.34839067, y: 0.6153243, z: -0.34839067, w: 0.6153243}
+  m_LocalRotation: {x: 0.3063107, y: 0.63731766, z: -0.3063107, w: 0.63731766}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 3
-  m_FollowOffset: {x: 0, y: 10, z: -6}
+  m_FollowOffset: {x: 0, y: 10, z: -8}
   m_XDamping: 0
   m_YDamping: 0
   m_ZDamping: 1
@@ -487,7 +487,7 @@ Transform:
   m_GameObject: {fileID: 5210212391946360925}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.784248, y: 55.19938, z: -6.5181847}
+  m_LocalPosition: {x: 11.784248, y: 55.19938, z: -6.5181847}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -538,7 +538,7 @@ MonoBehaviour:
   m_YAxis:
     Value: 1
     m_SpeedMode: 0
-    m_MaxSpeed: 2
+    m_MaxSpeed: 1.5
     m_AccelTime: 0.2
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
@@ -562,7 +562,7 @@ MonoBehaviour:
   m_XAxis:
     Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 300
+    m_MaxSpeed: 200
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
@@ -591,11 +591,11 @@ MonoBehaviour:
   m_SplineCurvature: 0.2
   m_Orbits:
   - m_Height: 10
-    m_Radius: 6
-  - m_Height: 7
-    m_Radius: 15
-  - m_Height: -2
-    m_Radius: 8.78
+    m_Radius: 8
+  - m_Height: 4.5
+    m_Radius: 14
+  - m_Height: -3
+    m_Radius: 8
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
   - {fileID: 1807522590871700296}
@@ -642,7 +642,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6428847199452120288}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.34839067, y: 0.6153243, z: -0.34839067, w: 0.6153243}
+  m_LocalRotation: {x: 0.3063107, y: 0.63731766, z: -0.3063107, w: 0.63731766}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -757,8 +757,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7459436549778082006}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.34839064, y: 0.6153243, z: -0.34839064, w: 0.6153243}
-  m_LocalPosition: {x: 13.784248, y: 55.19938, z: -6.5181847}
+  m_LocalRotation: {x: 0.30631068, y: 0.63731766, z: -0.30631068, w: 0.63731766}
+  m_LocalPosition: {x: 11.784248, y: 55.19938, z: -6.5181847}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -882,7 +882,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8731208985368145507}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.32580912, y: 0.6275735, z: -0.32580912, w: 0.6275735}
+  m_LocalRotation: {x: 0.282958, y: 0.6480238, z: -0.282958, w: 0.6480238}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -946,15 +946,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2392386487586427862, guid: 5f61a4ecb57715e44bd6fed901425f47, type: 3}
       propertyPath: speed
-      value: 20
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2392386487586427862, guid: 5f61a4ecb57715e44bd6fed901425f47, type: 3}
       propertyPath: maxHealth
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2392386487586427862, guid: 5f61a4ecb57715e44bd6fed901425f47, type: 3}
+      propertyPath: acceleration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392386487586427862, guid: 5f61a4ecb57715e44bd6fed901425f47, type: 3}
       propertyPath: maxDashEnergy
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392386487586427862, guid: 5f61a4ecb57715e44bd6fed901425f47, type: 3}
+      propertyPath: radiusShooting
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392386487586427862, guid: 5f61a4ecb57715e44bd6fed901425f47, type: 3}
+      propertyPath: timeStopCooldown
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2392386487586427862, guid: 5f61a4ecb57715e44bd6fed901425f47, type: 3}
+      propertyPath: crashingDamageToReceive
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2399216668612526172, guid: 5f61a4ecb57715e44bd6fed901425f47, type: 3}
       propertyPath: hitColor.b

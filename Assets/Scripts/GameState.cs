@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -29,13 +30,10 @@ public class GameState: MonoBehaviour
         PopulateList();
     }
 
-    public void TurnGodMode()
+    public bool TurnGodMode()
     {
         godMode = !godMode;
-        if(godMode)
-            godButton.color = Color.green;
-        else
-            godButton.color = Color.red;
+        return godMode;
     }
 
     private void PopulateList()

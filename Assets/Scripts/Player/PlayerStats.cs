@@ -75,6 +75,7 @@ public class PlayerStats: MonoBehaviour, IDamageable
         currentLevel++;
         Debug.Log($"Level up to Level = {currentLevel}");
         AudioManager.Instance.playSFX("LevelUp");
+        currentExperience = 0;
         selectorMenu.OpenItemSelection(this);
     }
 

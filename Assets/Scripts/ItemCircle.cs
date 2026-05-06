@@ -11,5 +11,6 @@ public class ItemCircle : MonoBehaviour
             {
                 player.gainExperience(experience);
             }
+            gameObject.SetActive(false);
     }
 }
